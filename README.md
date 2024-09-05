@@ -8,6 +8,7 @@ This project focuses on detecting man-made objects in water bodies using deep le
 - [Project Features](#project-features)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
+- [Training the Model](#training-the-model)
 - [Setup and Installation](#setup-and-installation)
 - [Running the Models on Jetson Nano](#running-the-models-on-jetson-nano)
 - [Results](#results) 
@@ -39,6 +40,26 @@ The project uses the YOLOv8 model for object detection. YOLOv8 was chosen for it
 ### Previous Versions
 
 - **YOLOv5 (v6.1)**: Initially used for object detection but later replaced by YOLOv8 due to deployment issues on the Jetson Nano.
+  
+  ![Yolo V5 vs V8 ](images/3364fae97e143bb8832663a8a18a9d75b349dbde-2048x1266.jpg)
+  ![Yolo V8 different Format comparision ](images/nvidia-jetson-ecosystem-1.jpg)
+  ![](images/ss.jpg)
+
+## Training the Model
+
+Training was performed on a lab system with the following steps:
+
+1. Prepare the dataset in the YOLO format.
+2. Train the model using the following command:
+   ```bash
+   yolo train data=UWD2.yaml model=yolov8.yaml epochs=1000
+   ```
+3. Evaluate the model on the validation set:
+   ```bash
+   yolo val model=best.pt data=dataset.yaml
+   ```
+
+   ![Training Results](images/results.jpg)
 
 ## Setup and Installation
 
@@ -136,14 +157,14 @@ yolo track model="/models/<Your_Model_Name>.engine" source=0
 
 Here are some results from our underwater object detection model:
 
-### Example 1: Detection of Underwater Trash
-![Underwater Trash Detection](images/trash_detection.jpg)
+### Example 1: Underwater human
+![Underwater human](images/image2.jpg)
 
 ### Example 2: Detection of Shipwreck
-![Shipwreck Detection](images/shipwreck_detection.jpg)
+![Shipwreck Detection](images/image3.jpg)
 
-### Example 3: Multiple Objects Detected
-![Multiple Objects](images/multiple_objects.jpg)
+### Example 3: Natural object
+![Natural object](images/image1.jpg)
 
 ## Acknowledgements
 

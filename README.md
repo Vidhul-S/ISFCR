@@ -41,10 +41,15 @@ The project uses the YOLOv8 model for object detection. YOLOv8 was chosen for it
 ### Previous Versions
 
 - **YOLOv5 (v6.1)**: Initially used for object detection but later replaced by YOLOv8 due to deployment issues on the Jetson Nano.
-  
-  ![Yolo V5 vs V8 ](images/3364fae97e143bb8832663a8a18a9d75b349dbde-2048x1266.jpg)
-  ![Yolo V8 different Format comparision ](images/nvidia-jetson-ecosystem-1.jpg)
-  ![](images/ss.jpg)
+
+  **Yolo V5 vs V8**
+  <img src="images/3364fae97e143bb8832663a8a18a9d75b349dbde-2048x1266.jpg" width="45%" />
+
+  **Yolo V8 different Format comparision**
+  <p float="left">
+  <img src="images/nvidia-jetson-ecosystem-1.jpg" width="50%" />
+  <img src="images/ss.jpg" width="45%" />
+  </p>
 
 ## Training the Model
 
@@ -59,6 +64,8 @@ Training was performed on a lab system with the following steps:
    ```bash
    yolo val model=best.pt data=dataset.yaml
    ```
+   
+  **Training Results**
 
    ![Training Results](images/results.jpg)
 

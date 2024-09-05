@@ -10,6 +10,7 @@ This project focuses on detecting man-made objects in water bodies using deep le
 - [Model Architecture](#model-architecture)
 - [Setup and Installation](#setup-and-installation)
 - [Running the Models on Jetson Nano](#running-the-models-on-jetson-nano)
+- [Results](#results) 
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
@@ -131,6 +132,18 @@ yolo track model="/models/<Your_Model_Name>.engine" source=0
 - For more Docker commands and support, please refer to the [Docker Documentation](https://docs.docker.com/).
 - For guidance on running and exporting YOLOv8 models, check out the [YOLOv8 Colab Tutorial](https://colab.research.google.com/drive/1Fn_dq7CJyOjGgXRXk7uHbd_yxgwle1te).
 
+## Results
+
+Here are some results from our underwater object detection model:
+
+### Example 1: Detection of Underwater Trash
+![Underwater Trash Detection](images/trash_detection.jpg)
+
+### Example 2: Detection of Shipwreck
+![Shipwreck Detection](images/shipwreck_detection.jpg)
+
+### Example 3: Multiple Objects Detected
+![Multiple Objects](images/multiple_objects.jpg)
 
 ## Acknowledgements
 

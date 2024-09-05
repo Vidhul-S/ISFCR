@@ -32,6 +32,7 @@ The dataset used for this project contains 50,000 images annotated with underwat
 
 - **Initial Data**: Provided by the owner of a related research paper.
 - **Annotations**: Manually annotated with Roboflow and iteratively expanded using model-assisted labeling.
+- **Custom Dataset**: You can access the custom dataset used in this project on Roboflow [here](https://app.roboflow.com/shrujana/udw/8).
 
 ## Model Architecture
 

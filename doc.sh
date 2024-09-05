@@ -1,7 +1,7 @@
 #!bin/bash
 xhost +local:root
 sudo docker run -it --runtime nvidia \
-  --name test1 \
+  --name UWD \
   --device /dev/video0 \
   --device /dev/nvhost-ctrl \
   --device /dev/nvhost-ctrl-gpu \

@@ -46,12 +46,15 @@ The project uses the YOLOv8 model for object detection. YOLOv8 was chosen for it
   
   <img src="images/3364fae97e143bb8832663a8a18a9d75b349dbde-2048x1266.jpg" width="45%" />
   
+  *Source :*https://www.stereolabs.com/en-in/blog/performance-of-yolo-v5-v7-and-v8
+  
 
   **Yolo V8 different Format comparision**
   
   <p float="left">
   <img src="images/nvidia-jetson-ecosystem-1.jpg" width="50%" />
   <img src="images/ss.jpg" width="45%" />
+   *Source :*https://docs.ultralytics.com/guides/nvidia-jetson
   </p>
 
 ## Training the Model
@@ -179,6 +182,6 @@ Here are some results from our underwater object detection model:
 
 ## Acknowledgements
 
-- Thanks to the owner of the research paper who provided the initial dataset.
+- Thanks to the owner of the [research paper]() who provided the initial dataset
 - The project was developed using Ultralytics' YOLO framework.
 - Roboflow for the annotation tool.

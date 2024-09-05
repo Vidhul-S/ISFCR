@@ -57,7 +57,7 @@ The project uses the YOLOv8 model for object detection. YOLOv8 was chosen for it
   
   <img src="images/3364fae97e143bb8832663a8a18a9d75b349dbde-2048x1266.jpg" width="45%" />
   
-  *Source :*https://www.stereolabs.com/en-in/blog/performance-of-yolo-v5-v7-and-v8
+  *Figure Source :*https://www.stereolabs.com/en-in/blog/performance-of-yolo-v5-v7-and-v8
   
 
   **Yolo V8 different Format comparision**
@@ -65,7 +65,7 @@ The project uses the YOLOv8 model for object detection. YOLOv8 was chosen for it
   <p float="left">
   <img src="images/nvidia-jetson-ecosystem-1.jpg" width="50%" />
   <img src="images/ss.jpg" width="45%" />
-   *Source :*https://docs.ultralytics.com/guides/nvidia-jetson
+   *Figure Source :*https://docs.ultralytics.com/guides/nvidia-jetson
   </p>
 
 ## Training the Model

@@ -31,6 +31,17 @@ The dataset used for this project contains 50,000 images annotated with underwat
 ### Data Sources
 
 - **Initial Data**: Provided by the owner of a related research paper.
+
+  **1.** Real world underwater dataset-RUOD
+  Authors: Risheng Liu, Xin Fan, Ming Zhu, Minjun Hou,Zhongxuan Luo
+
+  **2.** Underwater  brackish [dataset](https://public.roboflow.com/object-detection/brackish-underwater/1)Format: YOLO v8, Number of Images: 14674 images
+
+  **3.** Underwater object detection [dataset](https://universe.roboflow.com/side-kfdg0/underwater-object-detection/dataset/10)
+ 
+  **4.** Real-world Underwater Image Enhancement [dataset](https://github.com/LehiChiang/Underwater-object-detection-dataset) (RUIE 2020).
+
+
 - **Annotations**: Manually annotated with Roboflow and iteratively expanded using model-assisted labeling.
 - **Custom Dataset**: You can access the custom dataset used in this project on Roboflow [here](https://app.roboflow.com/shrujana/udw/8).
 

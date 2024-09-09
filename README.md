@@ -98,7 +98,7 @@ Training was performed on a lab system with the following steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/underwater-object-detection.git](https://github.com/Vidhul-S/Underwater-Object-Recognition-on-EDGE
+   git clone https://github.com/Vidhul-S/Underwater-Object-Recognition-on-EDGE
    cd underwater-object-detection
    ```
 

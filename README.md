@@ -94,6 +94,13 @@ Training was performed on a lab system with the following steps:
 - **Ultralytics YOLOv8**: Pre-trained models and inference framework.
 - **Jetson Nano**: Deployment device.
 
+### Jetson Setup
+
+For the initial setup of the Jetson Nano, please refer to the official Jetson Nano setup guide at the link below.
+
+[![Jetson Nano](https://images.app.goo.gl/LrcQBjfE9Fdp3bE58)](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
+
+
 ### Installation Steps
 
 1. Clone the repository:

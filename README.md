@@ -98,8 +98,9 @@ Training was performed on a lab system with the following steps:
 
 For the initial setup of the Jetson Nano, please refer to the official Jetson Nano setup guide at the link below.
 
-[![Jetson Nano](https://images.app.goo.gl/LrcQBjfE9Fdp3bE58)](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
+[![Jetson Nano](https://global.discourse-cdn.com/julialang/original/3X/b/3/b33a0d74aa2388017d52a8787acd748406ec1b5b.jpeg)](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
+![JetsonNanoSetup.com](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
 ### Installation Steps
 

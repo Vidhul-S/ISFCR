@@ -55,7 +55,7 @@ The project uses the YOLOv8 model for object detection. YOLOv8 was chosen for it
 
   **Yolo V5 vs V8**
   
-  <img src="images/3364fae97e143bb8832663a8a18a9d75b349dbde-2048x1266.jpg" width="45%" />
+  <img src="images/3364fae97e143bb8832663a8a18a9d75b349dbde-2048x1266.jpeg" width="45%" />
   
   *Figure Source :*https://www.stereolabs.com/en-in/blog/performance-of-yolo-v5-v7-and-v8
   
@@ -63,8 +63,8 @@ The project uses the YOLOv8 model for object detection. YOLOv8 was chosen for it
   **Yolo V8 different Format comparision**
   
   <p float="left">
-  <img src="images/nvidia-jetson-ecosystem-1.jpg" width="50%" />
-  <img src="images/ss.jpg" width="45%" />
+  <img src="images/nvidia-jetson-ecosystem-1.jpeg" width="50%" />
+  <img src="images/ss.jpeg" width="45%" />
    *Figure Source :*https://docs.ultralytics.com/guides/nvidia-jetson
   </p>
 
@@ -84,7 +84,7 @@ Training was performed on a lab system with the following steps:
    
   **Training Results**
 
-   ![Training Results](images/results.jpg)
+   ![Training Results](images/results.jpeg)
 
 ## Setup and Installation
 
@@ -191,13 +191,13 @@ yolo track model="/models/<Your_Model_Name>.engine" source=0
 Here are some results from our underwater object detection model:
 
 ### Example 1: Underwater human
-![Underwater human](images/image2.jpg)
+![Underwater human](images/image2.jpeg)
 
 ### Example 2: Detection of Shipwreck
-![Shipwreck Detection](images/image3.jpg)
+![Shipwreck Detection](images/image3.jpeg)
 
 ### Example 3: Natural object
-![Natural object](images/image1.jpg)
+![Natural object](images/image1.jpeg)
 
 ### A snip of the models effectiveness on a video
 

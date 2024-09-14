@@ -84,7 +84,7 @@ Training was performed on a lab system with the following steps:
    
   **Training Results**
 
-   ![Training Results](images/results.jpeg)
+   [![Training Results](images/results.jpeg)]()
 
 ## Setup and Installation
 
@@ -191,13 +191,13 @@ yolo track model="/models/<Your_Model_Name>.engine" source=0
 Here are some results from our underwater object detection model:
 
 ### Example 1: Underwater human
-![Underwater human](images/image2.jpeg)
+[![Underwater human](images/image2.jpeg)]()
 
 ### Example 2: Detection of Shipwreck
-![Shipwreck Detection](images/image3.jpeg)
+[![Shipwreck Detection](images/image3.jpeg)]()
 
 ### Example 3: Natural object
-![Natural object](images/image1.jpeg)
+[![Natural object](images/image1.jpeg)]()
 
 ### A snip of the models effectiveness on a video
 

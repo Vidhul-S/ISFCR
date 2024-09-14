@@ -210,4 +210,4 @@ Here are some results from our underwater object detection model:
 - The project was developed using [Ultralytics'](https://docs.ultralytics.com) YOLO framework.
 - Roboflow for the annotation tool.
 - Nvidia Jetson platform and [resources](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
-- Finally Thanks to Preet Kanwal ma'am and Prasad B Honnavalli sir for providing me with resource and motivation for this undertaking 
+- Finally Thanks to [Preet Kanwal](https://www.isfcr.pes.edu/team/preet-kanwal) ma'am and [Prasad B Honnavalli](https://www.isfcr.pes.edu/team/prasad-b-honnavalli) sir for providing me with resource and motivation for this undertaking 

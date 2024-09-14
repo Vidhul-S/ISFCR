@@ -100,7 +100,7 @@ For the initial setup of the Jetson Nano, please refer to the official Jetson Na
 
 [![Jetson Nano](https://global.discourse-cdn.com/julialang/original/3X/b/3/b33a0d74aa2388017d52a8787acd748406ec1b5b.jpeg)](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
-![JetsonNanoSetup.com](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
+[JetsonNanoSetup.com](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
 ### Installation Steps
 
@@ -199,8 +199,15 @@ Here are some results from our underwater object detection model:
 ### Example 3: Natural object
 ![Natural object](images/image1.jpg)
 
+### A snip of the models effectiveness on a video
+
+![DALLMYD's youtube video](images/videoplayback1.gif)
+
+credits to DALLMYD's plane wreck exploration [video](https://www.youtube.com/watch?v=9qm5kInqZlc&t=4s)
+
 ## Acknowledgements
 
-- Thanks to the owner of the [research paper]() who provided the initial dataset
-- The project was developed using Ultralytics' YOLO framework.
+- Thanks to the owner of the [research paper](https://dl.acm.org/doi/10.1016/j.neucom.2022.10.039) who provided the initial dataset
+- The project was developed using [Ultralytics'](https://docs.ultralytics.com) YOLO framework.
 - Roboflow for the annotation tool.
+- Nvidia Jetson platform and [resources](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)

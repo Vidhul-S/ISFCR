@@ -201,9 +201,8 @@ Here are some results from our underwater object detection model:
 
 ### A snip of the models effectiveness on a video
 
-![DALLMYD's youtube video](images/videoplayback1.gif)
-
-credits to DALLMYD's plane wreck exploration [video](https://www.youtube.com/watch?v=9qm5kInqZlc&t=4s)
+<img src="images/videoplayback1.gif" width="600">
+<sub>credits to DALLMYD's plane wreck exploration [video](https://www.youtube.com/watch?v=9qm5kInqZlc&t=4s)</sub>
 
 ## Acknowledgements
 

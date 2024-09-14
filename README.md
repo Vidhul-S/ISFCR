@@ -201,7 +201,7 @@ Here are some results from our underwater object detection model:
 
 ### A snip of the models effectiveness on a video
 
-<img src="images/videoplayback1.gif" width="600">
+<img src="images/My Movie.gif" width="600">
 <sub>credits to DALLMYD's plane wreck exploration [video](https://www.youtube.com/watch?v=9qm5kInqZlc&t=4s)</sub>
 
 ## Acknowledgements
@@ -210,3 +210,4 @@ Here are some results from our underwater object detection model:
 - The project was developed using [Ultralytics'](https://docs.ultralytics.com) YOLO framework.
 - Roboflow for the annotation tool.
 - Nvidia Jetson platform and [resources](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
+- Finally Thanks to Preet Kanwal ma'am and Prasad B Honnavalli sir for providing me with resource and motivation for this undertaking 

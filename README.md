@@ -81,7 +81,26 @@ Training was performed on a lab system with the following steps:
    ```bash
    yolo val model=best.pt data=dataset.yaml
    ```
-   
+
+  **Model Training Details**
+
+   - **Training Time**: 1,413.86 minutes for 300 epochs.
+   - **Training Hardware**:
+      - **CPU**: Intel 13th Gen i9-13900.
+      - **GPU**: NVIDIA 4090 with 24 GB of dedicated RAM.
+      - **System RAM**: 128 GB.
+      - **Shared Graphics Memory**: 64 GB (totaling 88 GB of graphics memory).
+   - **Acceleration**: Training was GPU-accelerated using the NVIDIA 4090.
+
+  **Model Inference Details**
+
+   - **Inference Hardware**: Jetson Nano 4GB.
+     - **GPU**: 128-core Maxwell GPU.
+     - **CPU**: Quad-core ARM A57 @ 1.43GHz.
+     - **RAM**: 4 GB.
+   - **Acceleration**: Inference on the Jetson Nano is GPU-accelerated.
+   - **Inference Speed**: 16.7-25 milliseconds per frame (approximately 40-60 FPS).
+
   **Training Results**
 
    [![Training Results](images/results.jpeg)]()
